@@ -1,0 +1,50 @@
+[ui]
+username = rmehta
+editor = vim
+merge = bcomp
+
+[alias]
+latest = log --limit 5
+srb = rebase --svn
+stash = shelve
+
+[diff]
+git = 1
+showfunc = 1
+unified = 8
+nodates = 1
+
+[extensions]
+hgsubversion = /home/rmehta/data/hg_extensions/hgsubversion/hgsubversion
+prompt = /home/rmehta/data/hg_extensions/hg-prompt/prompt.py
+color =
+histedit =
+rebase =
+pager =
+record =
+shelve =
+mq =
+strip =
+
+[merge-tools]
+bcomp.executable = /usr/bin/bcompare
+bcomp.args = $local $other $base $output
+bcomp.priority = 1
+bcomp.premerge = True
+bcomp.gui = True
+
+[hooks]
+update.externs = hg svn updateexternals
+# Prevent "hg pull" if MQ patches are applied.
+pre-pull = /home/rmehta/data/scripts/mq_applied_check.sh
+# Prevent "hg push" if MQ patches are applied.
+pre-push = /home/rmehta/data/scripts/mq_applied_check.sh
+# Prevent "hq update" if MQ patches are applied
+preupdate.mq-no-update = /home/rmehta/data/scripts/mq_applied_check.sh
+
+[pager]
+pager = less -r
+attend = annotate, cat, diff, export, glog, log, qdiff
+
+[mq]
+secret = True

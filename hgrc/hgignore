@@ -1,0 +1,750 @@
+# use glob syntax.
+syntax: glob
+
+*/.svn/*
+*ignore
+*.swp
+*.swo
+object
+tool/object
+tool/source
+tags
+/.sconsign.dblite
+/resources/*.pyc
+/tools/pppd_inline/*.swo
+/tools/pppd_inline/pppd_inline
+build*
+/source/*.nvl
+/tools/otp2car_test/test_data
+/tools/AddressBookTool/*/*.nvl
+/scons.cfg
+*.pyc
+diff.txt
+doxygen/doxygen
+
+watchdog_checkin
+platform
+libnlcom
+libphonetics
+image_processing_external
+cmake/common
+external*
+*Neverlost*ini
+3rdParty
+
+# /
+/object
+/tags
+/tuple*.tpl
+/GTAGS
+/GPATH
+/GRTAGS
+/GSYMS
+/Neverlost-Linux-Trunk.zip
+/.sconsign.dblite
+/build
+/*.tmp
+/daqplayback.dat
+/resources.flt
+/NeverlostIV.ini
+/vplog.dat
+/teamcity-info.xml
+/git.tar.bz2
+/persistent/*
+/SDAL-IVC
+sdal/*
+
+# /SDIDriver/
+SDIDriver/*.suo
+SDIDriver/*.user
+SDIDriver/*.ncb
+SDIDriver/Debug
+SDIDriver/Debug*
+SDIDriver/search*.txt
+SDIDriver/*.bak
+SDIDriver/*.aps
+SDIDriver/route.txt
+SDIDriver/connection.txt
+SDIDriver/maneuver.bin
+SDIDriver/maneuver.txt
+SDIDriver/waypoint.txt
+SDIDriver/test_out*.txt
+SDIDriver/TestResult*.bin
+SDIDriver/sdal.dll
+
+# /SDIDriver/res/
+/SDIDriver/res/Thumbs.db
+
+# /StateTableToDiagram/
+/StateTableToDiagram/StateTableToDiagram
+/StateTableToDiagram/*.ps
+/StateTableToDiagram/*.dot
+/StateTableToDiagram/*.pdf
+/StateTableToDiagram/*.png
+/StateTableToDiagram/*.jpg
+/StateTableToDiagram/tags
+/StateTableToDiagram/*.bak
+/StateTableToDiagram/Debug
+/StateTableToDiagram/Release
+/StateTableToDiagram/*.ncb
+/StateTableToDiagram/*.suo
+/StateTableToDiagram/*.user
+
+# /diagrams/
+/diagrams/*.ps
+/diagrams/*.gif
+/diagrams/*.png
+/diagrams/*.svg
+
+# /doxygen/
+/doxygen/html
+
+# /include/
+/include/*.bak
+/include/*.swp
+
+# /lib/
+/lib/*.a
+/lib/*.map
+
+# /platform/VC2005/
+/platform/VC2005/Debug
+/platform/VC2005/Debug Memory
+/platform/VC2005/*.ncb
+/platform/VC2005/*.suo
+/platform/VC2005/*.user
+/platform/VC2005/Release
+/platform/VC2005/AccelZMDStatus.csv
+/platform/VC2005/GyroBiasVsTemperatureTable.csv
+/platform/VC2005/GyroZMDStatus.csv
+/platform/VC2005/MagXYZTable.csv
+/platform/VC2005/TrafficTable.csv
+/platform/VC2005/leaks*.txt
+/platform/VC2005/*.bak
+/platform/VC2005/*.tpl
+/platform/VC2005/*.dat
+/platform/VC2005/Engineering Debug
+/platform/VC2005/NeverlostIV.ini
+/platform/VC2005/data
+/platform/VC2005/Validation Debug
+/platform/VC2005/resources
+/platform/VC2005/Engineering Release
+/platform/VC2005/NeverlostV.exe
+/platform/VC2005/2.bmp
+/platform/VC2005/3.bmp
+/platform/VC2005/NeverlostV.idc
+/platform/VC2005/NL5Error.0
+/platform/VC2005/Validation Release
+/platform/VC2005/check.md5
+/platform/VC2005/persistent
+
+# /platform/VC2005/SIFCLMCGEEStub/
+/platform/VC2005/SIFCLMCGEEStub/Release
+/platform/VC2005/SIFCLMCGEEStub/SIFCLMCGEEStub.ncb
+/platform/VC2005/SIFCLMCGEEStub/SIFCLMCGEEStub.suo
+/platform/VC2005/SIFCLMCGEEStub/SIFCLMCGEEStub.vcproj.ROBBITEL.Robert Bitel.user
+
+# /platform/VC2008/
+/platform/VC2008/*.bak
+/platform/VC2008/*.ncb
+/platform/VC2008/*.suo
+/platform/VC2008/Release
+/platform/VC2008/*.user
+/platform/VC2008/Engineering Debug
+/platform/VC2008/Engineering Release
+/platform/VC2008/Validation Debug
+/platform/VC2008/Debug Memory
+/platform/VC2008/Debug
+
+# /platform/VC6/
+/platform/VC6/Debug
+/platform/VC6/*.ncb
+/platform/VC6/*.opt
+/platform/VC6/*.plg
+
+# /platform/VC6/include/
+/platform/VC6/include/cairo
+
+# /platform/arm-linux/
+/platform/arm-linux/tags
+/platform/arm-linux/NeverlostV
+/platform/arm-linux/NeverlostD
+/platform/arm-linux/hal_gpio_utility
+
+# /platform/i386-linux/
+/platform/i386-linux/tags
+/platform/i386-linux/NeverlostV
+/platform/i386-linux/NeverlostD
+/platform/i386-linux/hal_gpio_utility
+/platform/i386-linux/data
+/platform/i386-linux/persistent
+/platform/i386-linux/NeverlostIV
+/platform/i386-linux/NeverlostIV.ini
+/platform/i386-linux/check.md5
+/platform/i386-linux/NeverlostIV-ref.ini
+/platform/i386-linux/0016ECD4C0A3_key
+
+# /resources/
+/resources/Thumbs.db
+
+# /resources/acquiring_gps/
+/resources/acquiring_gps/Thumbs.db
+
+# /resources/advertisement_screens/
+/resources/advertisement_screens/Thumbs.db
+
+# /resources/destination_direction_icons/
+/resources/destination_direction_icons/Thumbs.db
+
+# /resources/front_panel/
+/resources/front_panel/*.db
+
+# /resources/gps_images/
+/resources/gps_images/Thumbs.db
+
+# /resources/list_item_icons/
+/resources/list_item_icons/Thumbs.db
+
+# /resources/logos/
+/resources/logos/Thumbs.db
+
+# /resources/maneuver_icons/
+/resources/maneuver_icons/Thumbs.db
+
+# /resources/vehicle_icons/
+/resources/vehicle_icons/Thumbs.db
+
+# /resources/weather/
+/resources/weather/Thumbs.db
+
+# /source/
+/source/*.bak
+/source/makedepend-done
+/source/*.o
+/source/*.cvs
+/source/NeverlostIV
+/source/NeverlostIV.exe
+/source/NeverlostV
+/source/NeverlostV.exe
+/source/NeverlostD
+/source/nl_core
+/source/*.ini
+/source/*.*~
+/source/makedepend-data
+/source/NeverlostIV.ini
+/source/tags
+/source/vplog.dat
+/source/AccelZMDStatus.csv
+/source/TrafficTable.csv
+/source/MagXYZTable.csv
+/source/GyroZMDStatus.csv
+/source/GyroBiasVsTemperatureTable.csv
+/source/tuples.tpl
+/source/cscope*
+/source/gmon.out
+/source/leaks*.txt
+/source/data
+/source/*.dat
+/source/*.gz
+/source/*log*
+/source/callgrind*
+/source/cachegrind*
+/source/.sconsign.dblite
+/source/persistent
+/source/marker*.txt
+/source/object
+/source/leak*
+/source/stackfoot.txt
+/source/check.md5
+/source/object
+
+# /source/CALThread/
+/source/CALThread/*.bak
+/source/CALThread/makedepend-done
+/source/CALThread/*.o
+/source/CALThread/*.*~
+
+# /source/COMThread/
+/source/COMThread/*.bak
+/source/COMThread/makedepend-done
+/source/COMThread/*.o
+/source/COMThread/*.*~
+
+# /source/DAQThread/
+/source/DAQThread/*.bak
+/source/DAQThread/makedepend-done
+/source/DAQThread/*.o
+/source/DAQThread/*.*~
+
+# /source/Dynamic/common/
+/source/Dynamic/common/WeatherPipe.cpp
+/source/Dynamic/common/WeatherPipe.h
+
+# /source/ERRThread/
+/source/ERRThread/*.bak
+/source/ERRThread/makedepend-done
+/source/ERRThread/*.o
+/source/ERRThread/*.*~
+
+# /source/LHThread/
+/source/LHThread/*.bak
+/source/LHThread/makedepend-done
+/source/LHThread/*.o
+/source/LHThread/*.*~
+
+# /source/Mapmatch/
+/source/Mapmatch/*.bak
+/source/Mapmatch/makedepend-done
+/source/Mapmatch/*.o
+/source/Mapmatch/*.*~
+
+# /source/OS/
+/source/OS/*.bak
+/source/OS/makedepend-done
+/source/OS/*.o
+/source/OS/*.*~
+
+# /source/OS/linux/common/
+/source/OS/linux/common/*.bak
+/source/OS/linux/common/*.swp
+
+# /source/OS/win32/common/
+/source/OS/win32/common/*.bak
+
+# /source/PPThread/
+/source/PPThread/*.bak
+/source/PPThread/makedepend-done
+/source/PPThread/*.o
+/source/PPThread/*.*~
+
+# /source/RPThread/
+/source/RPThread/*.bak
+/source/RPThread/makedepend-done
+/source/RPThread/*.o
+/source/RPThread/*.*~
+
+# /source/SNDThread/
+/source/SNDThread/*.bak
+/source/SNDThread/makedepend-done
+/source/SNDThread/*.o
+/source/SNDThread/*.*~
+
+# /source/UIThread/
+/source/UIThread/*.bak
+/source/UIThread/makedepend-done
+/source/UIThread/*.o
+/source/UIThread/*.*~
+/source/UIThread/*.swp
+/source/UIThread/tags
+
+# /source/UIThread/common/
+/source/UIThread/common/*.swp
+/source/UIThread/common/*~
+/source/UIThread/common/tags
+
+# /source/UIThread/nl4/
+/source/UIThread/nl4/*.swp
+/source/UIThread/nl4/*.bak
+
+# /source/UIThread/nl5/
+/source/UIThread/nl5/*.bak
+/source/UIThread/nl5/*.swp
+/source/UIThread/nl5/*.tmp
+/source/UIThread/nl5/tags
+/source/UIThread/nl5/cscope*
+/source/UIThread/nl5/*~
+
+# /source/UIThread/nl5/datasources/
+/source/UIThread/nl5/datasources/*.bak
+/source/UIThread/nl5/datasources/*~
+/source/UIThread/nl5/datasources/*.swp
+/source/UIThread/nl5/datasources/OTPaddrbk_Folders.cpp
+/source/UIThread/nl5/datasources/OTPaddrbk_Folders.h
+
+# /source/UIThread/nl5/screens/
+/source/UIThread/nl5/screens/*.bak
+/source/UIThread/nl5/screens/*.swp
+/source/UIThread/nl5/screens/*~
+/source/UIThread/nl5/screens/tags
+/source/UIThread/nl5/screens/cscope
+
+# /source/UIThread/nl5/widgets/
+/source/UIThread/nl5/widgets/*.bak
+/source/UIThread/nl5/widgets/*~
+/source/UIThread/nl5/widgets/*.swp
+/source/UIThread/nl5/widgets/tags
+
+# /source/Util/
+/source/Util/*.bak
+/source/Util/makedepend-done
+/source/Util/*.o
+/source/Util/*.*~
+
+# /source/VGThread/
+/source/VGThread/*.bak
+/source/VGThread/makedepend-done
+/source/VGThread/*.o
+/source/VGThread/*.*~
+
+# /source/VPThread/
+/source/VPThread/*.bak
+/source/VPThread/makedepend-done
+/source/VPThread/*.o
+/source/VPThread/*.*~
+
+# /source/Validation/
+/source/Validation/*.bak
+/source/Validation/makedepend-done
+/source/Validation/*.o
+/source/Validation/*.*~
+
+# /source/Validation/nl5/
+/source/Validation/nl5/ValSocket.cpp.bak
+/source/Validation/nl5/ValTestStand.cpp.bak
+
+# /tools/AddressBookTool/
+/tools/AddressBookTool/debug
+/tools/AddressBookTool/*.ncb
+/tools/AddressBookTool/*.suo
+/tools/AddressBookTool/release
+
+# /tools/AddressBookTool/USBAB_Exporter/
+/tools/AddressBookTool/USBAB_Exporter/Debug
+/tools/AddressBookTool/USBAB_Exporter/*.user
+/tools/AddressBookTool/USBAB_Exporter/details_usb_ab.txt
+/tools/AddressBookTool/USBAB_Exporter/Release
+/tools/AddressBookTool/USBAB_Exporter/USBAB_Exporter
+
+# /tools/AddressBookTool/USBTrips_Exporter/
+/tools/AddressBookTool/USBTrips_Exporter/Debug
+/tools/AddressBookTool/USBTrips_Exporter/*.user
+/tools/AddressBookTool/USBTrips_Exporter/details_usb_trips.txt
+/tools/AddressBookTool/USBTrips_Exporter/Release
+/tools/AddressBookTool/USBTrips_Exporter/USBTrips_Exporter
+
+# /tools/SendUDPPacket/
+/tools/SendUDPPacket/send_udp_packet
+
+# /tools/UDPServer/
+/tools/UDPServer/test_udp_server
+
+# /tools/Wipro/
+/tools/Wipro/tags
+/tools/Wipro/Wipro
+
+# /tools/Wipro/Console/
+/tools/Wipro/Console/DUT
+
+# /tools/Wipro/DUT/
+/tools/Wipro/DUT/DUT
+/tools/Wipro/DUT/tags
+/tools/Wipro/DUT/Wipro
+
+# /tools/Wipro/DUT/DUT_DTS/
+/tools/Wipro/DUT/DUT_DTS/tags
+
+# /tools/actor_test/
+/tools/actor_test/actor_test
+/tools/actor_test/.kdbg*
+/tools/actor_test/tags
+
+# /tools/dynamic_content/
+/tools/dynamic_content/day_*
+/tools/dynamic_content/*.dat.gz
+/tools/dynamic_content/*.dat
+/tools/dynamic_content/*.md5
+/tools/dynamic_content/*_key
+/tools/dynamic_content/*_key.pub
+/tools/dynamic_content/tags
+/tools/dynamic_content/*.txt
+/tools/dynamic_content/archive
+/tools/dynamic_content/*.xml
+/tools/dynamic_content/*.xml.gz
+/tools/dynamic_content/runner.cpp
+/tools/dynamic_content/check.md5
+/tools/dynamic_content/runner
+/tools/dynamic_content/192.168.122.16*
+/tools/dynamic_content/10.10.10*
+/tools/dynamic_content/127.0.0.1
+/tools/dynamic_content/check_server
+/tools/dynamic_content/10.2.4.20*
+/tools/dynamic_content/get_data3
+
+# /tools/dynamic_proxy/
+/tools/dynamic_proxy/.kdbg*
+/tools/dynamic_proxy/proxy_app
+/tools/dynamic_proxy/proxy_threaded
+/tools/dynamic_proxy/*.dat.gz
+/tools/dynamic_proxy/client_app
+/tools/dynamic_proxy/proxyDB*
+
+# /tools/dynamic_speller_test/
+/tools/dynamic_speller_test/*.o
+/tools/dynamic_speller_test/.kdbg*
+/tools/dynamic_speller_test/tags
+/tools/dynamic_speller_test/dynamic_speller_test
+
+# /tools/flatfile_test/
+/tools/flatfile_test/runner
+/tools/flatfile_test/runner.cpp
+/tools/flatfile_test/testfile.txt
+/tools/flatfile_test/.kdbg*
+/tools/flatfile_test/*.gcda
+/tools/flatfile_test/*.gcno
+/tools/flatfile_test/*.gcov
+
+# /tools/hal_gpio_utility/
+/tools/hal_gpio_utility/tags
+/tools/hal_gpio_utility/.kdbg*
+/tools/hal_gpio_utility/*.swp
+
+# /tools/irda_test/
+/tools/irda_test/*.swp
+/tools/irda_test/irda_test
+
+# /tools/keypad_test/
+/tools/keypad_test/KeyTest
+/tools/keypad_test/keypad_blink_power
+/tools/keypad_test/keypad_blink_power_slow
+/tools/keypad_test/keypad_test
+/tools/keypad_test/turn_off_keypad
+/tools/keypad_test/keypad_keydog
+/tools/keypad_test/keypad_knight_rider
+/tools/keypad_test/keypad_util
+/tools/keypad_test/tags
+/tools/keypad_test/.kdbg*
+
+# /tools/mapSS/
+/tools/mapSS/mapSS
+/tools/mapSS/tags
+
+# /tools/mem_test/
+/tools/mem_test/backtrace_on_crash.obj
+/tools/mem_test/stack_check
+/tools/mem_test/MemTest
+/tools/mem_test/MemTest2
+/tools/mem_test/backtrace_on_crash
+/tools/mem_test/leak*.txt
+/tools/mem_test/mark*.txt
+/tools/mem_test/memtrace.out
+/tools/mem_test/object
+
+# /tools/otp2car_test/
+/tools/otp2car_test/*.gc*
+/tools/otp2car_test/.kdbg*
+/tools/otp2car_test/runner*
+/tools/otp2car_test/tags
+
+# /tools/otp2car_test/persistent/
+/tools/otp2car_test/persistent/otp2car.tab
+/tools/otp2car_test/persistent/*.nvl
+
+# /tools/safe_string_test/
+/tools/safe_string_test/runner*
+/tools/safe_string_test/*.gcno
+/tools/safe_string_test/*.gcda
+/tools/safe_string_test/tags
+/tools/safe_string_test/.kdbg*
+/tools/safe_string_test/*.gcov
+
+# /tools/str_cmp_check/
+/tools/str_cmp_check/runner*
+/tools/str_cmp_check/*.gcov
+/tools/str_cmp_check/*.gcno
+/tools/str_cmp_check/*.gcda
+
+# /tools/sqlite_testbench
+/tools/sqlite_testbench/*.db
+/tools/sqlite_testbench/*.csv
+
+# /tools/system_helper/
+/tools/system_helper/system_helper
+/tools/system_helper/test_system_helper
+
+# /tools/tuple_reader/source/
+/tools/tuple_reader/source/tuples.tpl
+
+# /tools/unit_echo/
+/tools/unit_echo/tags
+/tools/unit_echo/unit_echo
+/tools/unit_echo/archive
+/tools/unit_echo/proxy_app
+/tools/unit_echo/unit_echo-arm
+
+# /tools/updater/
+/tools/updater/updater
+/tools/updater/revert_check
+
+# /tools/validation_test/
+/tools/validation_test/*.gcov
+/tools/validation_test/*.gcda
+/tools/validation_test/*.gcno
+/tools/validation_test/*.swp
+/tools/validation_test/runner
+/tools/validation_test/runner.cpp
+
+# /* dcs scipts */
+/scripts/dcs/weather*.gz
+/scripts/dcs/*airline*.gz
+/scripts/dcs/*airport*.gz
+/scripts/dcs/*events*.gz
+/scripts/dcs/*zone_info*.gz
+/scripts/dcs/zone*.gz
+/scripts/dcs/flt*.bz2
+/scripts/dcs/*_seq_*.dat
+/scripts/dcs/zones.txt
+/scripts/dcs/sequences.txt
+/scripts/dcs/flts.txt
+/scripts/dcs/sirf_*.dat.gz
+
+# /* Haptec Test */
+/tools/HaptecTest/Reprogram_haptec
+/tools/HaptecTest/ReprogramHaptec_fubar
+/tools/HaptecTest/arm_Reprogram_haptec
+/tools/HaptecTest/HaptecTest
+
+# /* Interstitial Test */
+/tools/interstitial_test/keep_test_file
+/tools/interstitial_test/Static_Hawaii_file
+/tools/interstitial_test/test_file
+/tools/interstitial_test/keep_static_hawaii
+/tools/interstitial_test/test_static_hawaii
+
+# /* Dynamic Multi File Test */
+/tools/dynamic_multifile_test/2011*
+/tools/dynamic_multifile_test/temp_files/20110624T111100Z.EVENTS
+/tools/dynamic_multifile_test/temp_files/20110624T111100Z.UNKNOWN
+
+doxygen/doxygen/*
+
+# /* Psplash Ads Tests */
+/tools/psplash_ads_datastore_test/persistent/splashads/psplash.db
+/tools/psplash_ads_datastore_test/psplash.db
+/tools/psplash_ads_datastore_test/persistent/splashads/request_state.txt
+/tools/psplash_ads_datastore_test/.sconsign.dblite
+/tools/psplash_ads_datastore_test/check_*.t.h
+/tools/psplash_ads_datastore_test/check_*.cpp
+/tools/psplash_ads_datastore_test/*.o
+
+*.gcda
+*.gcno
+runner
+runner.cpp
+*.gcov
+*.o
+*.idb
+*.out
+*.s
+*.obj
+/tools/dynamic_proxy/client_proxy
+/tools/dynamic_proxy/otp2car_stub
+/source/resources.flt
+10.2.4.20
+192.168.122.165
+192.168.122.166
+/source/usbdrive
+/usbdrive
+.cccc
+/tools/com_thread_test/ComThreadTest
+/tools/com_thread_test/source
+/platform/arm-linux/usr/local
+/tools/unwinder/wind/simplefunc.s
+/data/*
+/source/stack_analysis*.txt
+.kdbgrc*
+/tools/statechart_test/tuple_enum_values_table.cxx
+/USB/otpaddbk.nvl
+/USB/otptrips.nvl
+/USB/Road to Hana Scenic Drive(3).NFV
+/resources/Interstital_archive.tar.gz
+/source/LHThread/HertzDB.c.orig
+/source/UIThread/nl5/StateChart.cpp.orig
+/tools/SQLiteInterface_check/db2check
+/tools/dynamic_proxy/proxyDB
+/tools/cxxtest-old
+/tools/safe_string_test/TEST-cxxtest.xml
+/tools/*/TEST-*.xml
+test_sirf
+/tools/dynamic_content/127.0.0.1
+/tools/dynamic_content/10.*
+/*_local_file.dat.gz
+/unittests/loadtest[0-9]-*
+/unittests/startup
+/unittests/version.txt
+/unittests/persistent/tuples.tpl
+/unittests/persistent/otp2car/otp2car.tab
+/unittests/FailedThreads.txt
+/tools/SIF-SGEEAgeCheck/SIF-SGEEAgeCheck
+/tools/SIF-SGEEAgeCheck/sirf_sgee7.gz
+/tools/otp2car_test/testfile.txt
+prod_sirf
+/unittests/loadtesting*
+/tools/LanguageConvert/test.db
+/source/sql_statements.txt
+/tools/SQLiteInterface_check/logFile
+/tools/sqlite_testbench/test.db
+/tools/system_images/resources.flt
+/tools/system_images/resources_png.flt
+/tools/dynamic_event_data_test/persistent/events/events.tab
+/platform/i386-linux/NeverlostV.layout
+loadtest*-*
+/persistent/dynamic/splash_zones.dat.gz
+/unittests/teamcity-info.xml
+/tools/os_tests/event_values_table.cxx
+/tools/image_manager_test/psplash.db
+/tools/psplashCursors_test/psplash.db
+/tools/dynamic_multifile_test/temp_files
+/tools/dynamic_multifile_test/temp20110101T000000Z.EVENTS.TEST
+
+/tools/export_resources/flat_file_test
+/scripts/dcs/airlines.dat.gz
+/scripts/dcs/airports.dat.gz
+/scripts/dcs/flights*.gz
+/NeverlostV
+/tools/psplash_ads_datastore_test/psplash.db-journal
+/tools/psplash_ads_datastore_test/5.flt
+/tools/SQLiteInterface_check/db2validate
+
+/libnlcom
+/image_processing_external
+
+/tools/counters_event_listener/persistent
+
+/tools/metrics_test/marketing_counters_backlog
+/scripts/dcs/ServerFakeData/marketing_counters.dat.bz2
+/tools/counters_event_listener/persistent_timers.txt
+/tools/psplash_ads_datastore_test/persistent_timers.txt
+/persistent_timers.txt
+/svn-externals-state
+/.svn_externals
+/source/psplash.flt
+/source/psplash.cfg
+/source/sponsors
+tools/dynamic_counters_test/marketing_counters
+tools/dynamic_counters_test/marketing_counters_backlog
+/secondary_resources.flt
+/source/secondary_resources.flt
+/tools/db_poi_resolver_check/db_poi_resolver_check
+/tools/db_poi_resolver_check/mn.db
+/tools/db_poi_resolver_check/mn.flt
+/tools/persistent_timers_test/persistent_timers.txt
+/tools/system_images/secondary_resources.flt
+SDAL-IVC/
+tools/SQLiteInterface_check/db2check-journal
+tools/geoengine_test/new_db
+/tools/geoengine_test/new_db
+/tools/er2h_tests/persistent
+/tools/er2h_tests/ER2H
+.vimrc
+_build*
+tools/image_manager_test/persistent/
+tools/statechart_test/name_to_slot_table.cxx
+tools/wpa_supplicant_test/wpa_supplicant
+tools/geoengine_test/persistent
+tools/translator_test/persistent
+_build*
+
+#NL5XFiles
+poilist*
+Output*/*
+NavSolStreet.txt
