@@ -1,0 +1,84 @@
+" Set to auto read when a file is changed from the outside
+set autoread
+
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
+
+" Turn on the Wild Menu
+set wildmenu
+
+" Always show current position
+set ruler
+
+" Height of command bar
+"set cmdheight=2
+
+" A buffer becomes hidden when it is abandoned
+set hid
+
+" Configure backspace so it acts as it should
+set backspace=indent,eol,start
+
+" Ignore case when searching
+"set ignorecase
+
+" When searching try to be smart about cases
+set smartcase
+
+" Highlight search results
+set hlsearch
+
+" Makes search act like search in modern browsers
+set incsearch
+
+" Don't redraw while executing macros (good performance config)
+set lazyredraw
+
+" Show matching brakets when text indicator is over them
+set showmatch
+
+" How many tenths of a second to blink when matching brackets
+" set mat=2
+
+" Turn off error sounds
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
+" Enable syntax highlighting
+syntax enable
+
+colorscheme desert
+set background=dark
+
+" Set options when running GUI
+if has("gui_running")
+	set guioptions-=T
+	set guioptions+=e
+	set t_Co=256
+	set guitablabel=%M\ %t
+endif
+
+" Set utf8 as encoding standard
+set encoding=utf8
+
+" Set unix as standard file type
+set ffs=unix,dos,mac
+
+" Turn off backups
+set nobackup
+set nowb
+set noswapfile
+
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
+
+"Always show status line
+set laststatus=2
+
+"set cin
+"set noci
+"set nu
