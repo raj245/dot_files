@@ -82,6 +82,5 @@ set wrap "Wrap lines
 "Always show status line
 set laststatus=2
 
-"set cin
-"set noci
-"set nu
+" Airline plugin
+let g:airline#extensions#tabline#enabled = 1
