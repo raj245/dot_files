@@ -10,6 +10,8 @@ filetype indent on
 
 " Turn on the Wild Menu
 set wildmenu
+set wildmode=longest,list,full
+set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
 
 " Always show current position
 set ruler
