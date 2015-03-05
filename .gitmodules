@@ -16,3 +16,6 @@
 [submodule "vim/bundle/omnicppcomplete"]
 	path = vim/bundle/omnicppcomplete
 	url = https://github.com/vim-scripts/OmniCppComplete.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
