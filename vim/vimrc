@@ -13,8 +13,7 @@ filetype indent on
 
 " Turn on the Wild Menu
 set wildmenu
-set wildmode=longest,list,full
-set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
+set wildmode=longest:full
 
 " Always show current position
 set ruler
@@ -95,3 +94,14 @@ set laststatus=2
 " Airline plugin
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+"Jedi Stuff
+let g:jedi#use_tabs_not_buffers = 0
+let g:jedi#popup_on_dot = 0
+
+" Supertab Setup
+autocmd FileType *
+    \ if &omnifunc != '' |
+    \   call SuperTabChain(&omnifunc, "<c-p>") |
+    \   call SuperTabSetDefaultCompletionType("<c-x><c-u>") |
+    \ endif 
