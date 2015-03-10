@@ -1,6 +1,9 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+" Show line numbers
+set number
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
