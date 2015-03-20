@@ -61,6 +61,10 @@ if [ -e/etc/profile ]; then
 	source /etc/profile
 fi
 
+if [ -e/usr/share/git/git-prompt.sh ]; then
+	source /usr/share/git/git-prompt.sh
+fi
+
 HOST_STR="`ip address show | grep inet | grep -v inet6 | grep -v '127.0.0.1' | awk -F " " '{print $2}' | awk -F "/" '{print $1}'`"
 
 #if [ -e $HOME/.git-prompt.sh ]; then
