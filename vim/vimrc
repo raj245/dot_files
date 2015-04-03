@@ -141,3 +141,31 @@ let g:syntastic_loc_list_height = 5
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_auto_refresh_includes = 1
 let g:syntastic_cpp_compiler = 'g++'
+
+function! SetTabsToSpaces()
+  setlocal tabstop=4
+  setlocal softtabstop=4
+  setlocal shiftwidth=4
+  setlocal smarttab
+  setlocal expandtab
+:endfunction
+
+function! SetSpacesToTabs()
+  setlocal tabstop=5
+  setlocal softtabstop=5
+  setlocal shiftwidth=5
+  setlocal smarttab
+  setlocal noexpandtab
+:endfunction
+
+map <silent> <F2> :call SetTabsToSpaces()<CR>
+map <silent> <F4> :call SetSpacesToTabs()<CR>
+
+imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
+
+map <F12> :call TrimWhiteSpace()<CR>
+" Removes trailing spaces
+func! TrimWhiteSpace()
+  %s/\s*$//
+  ''  
+:endfunction
