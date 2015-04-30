@@ -50,39 +50,25 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-#    . /etc/bash_completion
-#fi
-
-if [ -e/etc/profile ]; then
+if [ -e /etc/profile ]; then
 	source /etc/profile
 fi
 
-if [ -e/usr/share/git/git-prompt.sh ]; then
+if [ -e /usr/share/git/git-prompt.sh ]; then
 	source /usr/share/git/git-prompt.sh
+elif [ -e /usr/share/git/completion/git-prompt.sh ]; then
+	source /usr/share/git/completion/git-prompt.sh
+elif [ -e /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
+	source /usr/local/etc/bash_completion.d/git-prompt.sh
 fi
 
 HOST_STR="`ip address show | grep inet | grep -v inet6 | grep -v '127.0.0.1' | awk -F " " '{print $2}' | awk -F "/" '{print $1}'`"
-
-#if [ -e $HOME/.git-prompt.sh ]; then
-#	source $HOME/.git-prompt.sh
-#	export PS1="\n\[$(tput bold)\]\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\h($HOST_STR)\[$(tput setaf 6)\](\d)(\t)\n\[$(tput setaf 1)\][\w]\[$(tput setaf 5)\]\$(__git_ps1)\n\[$(tput setaf 2)\]->\[$(tput sgr0)\]"
-#else
-#
-#	export PS1="\n\[$(tput bold)\]\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\h($HOST_STR)\[$(tput setaf 6)\](\d)(\t)\n\[$(tput setaf 1)\][\w]\[$(tput setaf 5)\]\n\[$(tput setaf 2)\]->\[$(tput sgr0)\]"
-#fi
 
 if [ -e $HOME/data/hg_extensions/hg-prompt/prompt.py ]; then
 	hg_ps1() {
 		hg prompt "({branch}:{tags})" 2> /dev/null
 	    }
 
-	if [ -e /usr/share/git/completion/git-prompt.sh ]; then
-		source /usr/share/git/completion/git-prompt.sh
-	fi
 
 	export PS1="\n\[$(tput bold)\]\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\h($HOST_STR)\[$(tput setaf 6)\](\d)(\t)\n\[$(tput setaf 1)\][\w]\[$(tput setaf 5)\]\$(__git_ps1)\$(hg_ps1)\n\[$(tput setaf 2)\]->\[$(tput sgr0)\]"
 else
