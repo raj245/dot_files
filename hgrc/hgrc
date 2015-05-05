@@ -34,7 +34,7 @@ bcomp.premerge = True
 bcomp.gui = True
 
 [hooks]
-update.externs = hg svn updateexternals
+#update.externs = hg svn updateexternals
 # Prevent "hg pull" if MQ patches are applied.
 pre-pull = /home/rmehta/data/dot_files/scripts/mq_applied_check.sh
 # Prevent "hg push" if MQ patches are applied.
