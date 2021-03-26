@@ -1,0 +1,4 @@
+" Plugs {
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'vim-airline/vim-airline'
+" }
